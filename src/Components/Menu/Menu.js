@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import "./Menu.css";
 import Header from "../Header/Header";
+import menu_data from "../../Data/manu_data.json";
+console.log(menu_data);
+
 class Menu extends Component {
   render() {
     return (
@@ -32,6 +35,7 @@ class Menu extends Component {
 
               <div class="items_wrapper">
                 <a className="menu_items">
+                  
                   <table className="table_items">
                     <tbody>
                       <tr>
