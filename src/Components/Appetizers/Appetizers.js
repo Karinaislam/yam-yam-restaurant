@@ -18,7 +18,10 @@ class Appetizers extends Component {
                       <p>{row.description}</p>
                     </td>
                     <td class="price">{row.price}</td>
+                    <td> <button onClick={ () => this.props.handelAddtoCart(row)}
+                    className="cartIcon" type="button" class="btn btn-default btn-md"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button></td>
                   </tr>
+                 
                 ))}
               </tbody>
             </table>
@@ -38,6 +41,8 @@ class Appetizers extends Component {
                       <p>{row.description}</p>
                     </td>
                     <td class="price">{row.price}</td>
+                    <td> <button onClick={ () => this.props.handelAddtoCart(row)}
+                    className="cartIcon" type="button" class="btn btn-default btn-md"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button></td>
                   </tr>
                 ))}
               </tbody>
@@ -60,6 +65,8 @@ class Appetizers extends Component {
                       <p>{row.description}</p>
                     </td>
                     <td class="price">{row.price}</td>
+                    <td> <button onClick={ () => this.props.handelAddtoCart(row)}
+                    className="cartIcon" type="button" class="btn btn-default btn-md"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button></td>
                   </tr>
                 ))}
               </tbody>
@@ -80,6 +87,8 @@ class Appetizers extends Component {
                       <p>{row.description}</p>
                     </td>
                     <td class="price">{row.price}</td>
+                    <td> <button onClick={ () => this.props.handelAddtoCart(row)}
+                    className="cartIcon" type="button" class="btn btn-default btn-md"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button></td>
                   </tr>
                 ))}
               </tbody>

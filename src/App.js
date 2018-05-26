@@ -12,6 +12,7 @@ import {
 import About_us from "./Components/About_us/About_us";
 import Menu from "./Components/Menu/Menu";
 import Menu2 from "./Components/Menu2/Menu2";
+import OrderSummary from "./Components/OrderSummary/OrderSummary";
 
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
             <Route exact path="/about" component={About_us}></Route>
             <Route exact path="/menu" component={Menu}></Route>
             <Route exact path="/menu2" component={Menu2}></Route>
+            <Route exact path="/orderSummary" component={OrderSummary}></Route>
             </Switch>
           </Router>
        
