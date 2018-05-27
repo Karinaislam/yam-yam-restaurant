@@ -36,19 +36,17 @@ class Header extends Component {
               <NavItem eventKey={1} href="/about" onClick={this.handleClose}>
                 About Us
               </NavItem>
-              <NavItem eventKey={2} href="/menu">
-                Menu
-              </NavItem>
+              
               <NavItem eventKey={2} href="/menu2">
                 Menu2
               </NavItem>
-              <NavItem eventKey={2} href="#">
+              <NavItem eventKey={2} href="/menu2">
                 Online Order
               </NavItem>
-              <NavItem eventKey={2} href="#">
+              {/* <NavItem eventKey={2} href="#">
                 Gallery
-              </NavItem>{" "}
-              <NavItem eventKey={2} href="#">
+              </NavItem>{" "} */}
+              <NavItem eventKey={2} href="/about">
                 Contact
               </NavItem>
             </Nav>

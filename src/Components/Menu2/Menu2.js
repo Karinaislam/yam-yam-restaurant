@@ -45,7 +45,11 @@ handelAddtoCart(order_item){
     });
 
    var id_array = newCart.map( (elm)=> elm.id);
-   console.log (id_array);
+   var JSONArray = JSON.stringify(id_array)
+   
+   localStorage.setItem("Storage_id_array", JSONArray );
+  // console.log(JSON.parse(localStorage["Storage_id_array"]))
+  
 }
 
     render() {
@@ -54,14 +58,14 @@ handelAddtoCart(order_item){
             <div>
                 <Header cartLength={this.state.cart.length} />
                 <div className="main_content">
-                <h1>Cart Size: {this.state.cart.length}</h1>
+               
                 <div className="menu2 menu_groups" >
-                <a> Appetizers</a>
-                <a>Soups</a>
-                <a>Noodles</a>
-                <a>Entrees</a>
-                <a>Dessert</a>
-                <a>Beverages</a>
+                <a href="/menu2#appetizers"> Appetizers</a>
+                <a href="/menu2#soups">Soups</a>
+                <a href="/menu2#noodles">Noodles</a>
+                <a href="/menu2#entrees">Entrees</a>
+                <a href="/menu2#dessert">Dessert</a>
+                <a href="/menu2#beverages">Beverages</a>
                 </div>
               <div className="menu_discription"><Appetizers data={this.state.menu_item} handelAddtoCart={this.handelAddtoCart}/></div>
                 </div>

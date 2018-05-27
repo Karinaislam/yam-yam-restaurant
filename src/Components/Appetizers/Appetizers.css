@@ -10,6 +10,11 @@
 .table_items{
         width : 100%;
   }
+
+  .table_items tr td:first-child {
+    width: 75%;
+}
+
     
 .menu_items{
       color: #4a4a4a;
