@@ -37,8 +37,8 @@ class Header extends Component {
                 About Us
               </NavItem>
               
-              <NavItem eventKey={2} href="/menu2">
-                Menu2
+              <NavItem eventKey={2} href="/menu">
+                Menu
               </NavItem>
               <NavItem eventKey={2} href="/menu2">
                 Online Order
