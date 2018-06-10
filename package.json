@@ -2,7 +2,7 @@
   "name": "yam-yam-restaurant",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Karinaislam.github.io/yam-yam-restaurant",
+  "homepage": "https://Karinaislam.github.io/yam-yam-restaurant",
   "dependencies": {
     "google-map-react": "^1.0.0",
     "material-ui": "^0.20.0",
